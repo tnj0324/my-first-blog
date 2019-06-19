@@ -22,4 +22,4 @@ def post_new(request):
     else:
         form = PostForm()
     return render(request, 'blog/post_edit.html', {'form': form})
-# Create your views here.
+    # Create your views here.
